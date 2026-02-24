@@ -1,0 +1,22 @@
+:root {
+  --nord-polar-night: #2e3440;
+  --nord-snow-storm: #eceff4;
+  --nord-frost: #88c0d0;
+  --nord-aurora: #81a1c1;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--nord-polar-night);
+  color: var(--nord-snow-storm);
+}
+
+a {
+  color: var(--nord-frost);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
